@@ -8,3 +8,33 @@
 .btn:hover{
     background-color: white;
 }
+.head{
+    margin-left: 25px;
+}
+/* style={{marginLeft:"25px"}} */
+@media (max-width:480px){
+    body{
+        overflow-x: hidden;
+    }
+    .head{
+        margin-left: 57px;
+    }
+    .para{
+        margin-left: 30px;
+    }
+    .button{
+        margin-left: 37px;
+    }
+    .content{
+        color: white;
+    }
+   
+    .col-lg-6{
+        margin-left: -25px;
+    }
+    .utube{
+        margin-left: -100px;
+        width: 300px;
+    }
+    
+}

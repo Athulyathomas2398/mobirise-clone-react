@@ -7,21 +7,21 @@ function Landing() {
     return (
 
         <>
-            <div className='landing container-fluid  w-100' >
-                <div className="row container d-flex align-items-center justify-content-betweeen w-100" >
-                    <div className="col-lg-5"style={{marginLeft:"60px"}}>
-                        <div className='m-5 p-5 w-100 text-light'>
-                            <h1 className='fw-bolder ' style={{marginLeft:"25px"}}>WOW SLIDER</h1>
-                            <p className='p-2 ' style={{textAlign:"right"}}>WOWSlider allows you with the simple click of the mouse to make an endless amount of adjustments to your slider. Responsive slider with touch/swipe support, full-width slider with thumbnail filmstrip and play/pause control, 3D effects,  text descriptions and others. </p>
-                            <div className='d-flex align-items-center p-1 justify-content-between '>
-                                <button className='btn btn-primary w-50 ' style={{margin:"10px"}}>DEMO</button>
+            <div className='landing container-fluid  ' >
+                <div className="row container d-flex align-items-center justify-content-betweeen " >
+                    <div className="content col-lg-6">
+                        {/* <div className='wow m-5 p-5  text-light'> */}
+                            <h1 className='head fw-bolder ' >WOW SLIDER</h1>
+                            <p className='para  ' style={{textAlign:"right"}}>WOWSlider allows you with the simple click of the mouse to make an endless amount of adjustments to your slider. Responsive slider with touch/swipe support, full-width slider with thumbnail filmstrip and play/pause control, 3D effects,  text descriptions and others. </p>
+                            <div className='button d-flex align-items-center p-1 justify-content-between '>
+                                <button className='btn btn-primary w-50 ' style={{margin:"5px"}}>DEMO</button>
                                 <button className='btn btn-success w-50 '>BUY NOW</button>
                             </div>
-                        </div>
+                        {/* </div> */}
                     </div>
-                    <div className="col"></div>
+                    {/* <div className="col"></div> */}
                     <div className="col-lg-6  "style={{height:"300px"}} >
-                    <iframe style={{marginLeft:"50px"}} width="520" height="275" src="https://www.youtube.com/embed/nb3LBzHdYGs?si=ywUHp2HoEeIeDw6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe className='utube' style={{marginLeft:"50px"}} width="520" height="275" src="https://www.youtube.com/embed/nb3LBzHdYGs?si=ywUHp2HoEeIeDw6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
