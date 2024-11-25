@@ -2,7 +2,7 @@
     background-image: url("./assets/photo-1.jpg");
     background-position: center;
     background-attachment: fixed;
-    width: 100%;
+    
     min-height: 100vh;
 }
 .btn:hover{
@@ -30,6 +30,7 @@
     }
    
     .col-lg-6{
+        width: 200px;
         margin-left: -25px;
     }
     .utube{
