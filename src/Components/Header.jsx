@@ -4,6 +4,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import './App.css'
 
 
 
@@ -11,7 +12,7 @@ function Header() {
     
   return (
     <>
-     <Navbar  style={{backgroundColor:"#323232"}} data-bs-theme="dark">
+     <Navbar className='nav'  style={{backgroundColor:"#323232"}} data-bs-theme="dark">
         <Container>
             <img src="https://mobirise.com/extensions/wowslider/assets/images/logo.png" style={{width:"30px"}} alt="" />
           <Navbar.Brand href="#home" className='fs-5 fw-bold'>MOBIRISE</Navbar.Brand>
