@@ -1,0 +1,64 @@
+/* Responsive styles for screens <= 480px
+@media (max-width: 480px) {
+    .landing {
+      padding: 10px;
+    }
+  
+    .row.container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .content {
+      padding: 20px;
+    }
+  
+    .head {
+      font-size: 24px;
+    }
+  
+    .para {
+      font-size: 14px;
+      text-align: center !important;
+      padding: 10px;
+    }
+  
+    .button {
+      flex-direction: column;
+    }
+  
+    .button .btn {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .col-lg-6 {
+      padding: 10px;
+    }
+  
+    iframe.utube {
+      width: 100% !important;
+      height: auto !important;
+      margin: 0 auto;
+    }
+  
+    .container h3 {
+      font-size: 18px;
+      padding: 10px 0;
+    }
+  
+    .container p {
+      font-size: 14px;
+      padding: 10px 0;
+    }
+  
+    .container img {
+      width: 100%;
+      height: auto;
+    }
+  
+    iframe.w-100 {
+      min-height: 300px;
+    }
+  }
+   */

@@ -21,7 +21,7 @@ function Header() {
             <Nav.Link href="#demo"style={{color:"white",fontWeight:"bolder",fontSize:"15px"}}>DEMO</Nav.Link>
             
           </Nav>
-          <button className='btn   ms-3 fw-bolder' style={{border:"2px solid white" ,color:"white",fontSize:"15px"}}>BUY NOW</button>
+          <button className='btn ms-3 fw-bolder' style={{border:"2px solid white" ,color:"white",fontSize:"15px"}}>BUY NOW</button>
           
         </Container>
       </Navbar>

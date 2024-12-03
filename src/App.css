@@ -13,7 +13,7 @@
 }
 /* style={{marginLeft:"25px"}} */
 @media (max-width:480px){
-    body{
+    .landing{
         overflow-x: hidden;
     }
     .head{
@@ -36,6 +36,7 @@
     .utube{
         margin-left: -100px;
         width: 200px;
+        
     }
     
     

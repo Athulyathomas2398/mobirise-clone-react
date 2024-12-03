@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import photo from '../assets/photo-1.jpg'
+import './Landing.css'
 
 
 function Landing() {
@@ -20,8 +21,8 @@ function Landing() {
                         {/* </div> */}
                     </div>
                     {/* <div className="col"></div> */}
-                    <div className="col-lg-6 p-5 "style={{height:"300px"}} >
-                    <iframe className='utube' style={{marginLeft:"50px"}} width="520" height="275" src="https://www.youtube.com/embed/nb3LBzHdYGs?si=ywUHp2HoEeIeDw6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div className="col-lg-6 p-5 "style={{height:"250px"}} >
+                    <iframe className='utube' style={{marginLeft:"50px"}} width="480" height="265" src="https://www.youtube.com/embed/nb3LBzHdYGs?si=ywUHp2HoEeIeDw6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
